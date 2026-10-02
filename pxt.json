@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "TinkerBott": "github:ACEBOTTTeam/TinkerBott#2ab6774856564db645746f96dc5c4f7980afdec4"
     },
     "files": [
         "main.blocks",

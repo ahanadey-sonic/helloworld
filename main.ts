@@ -1,3 +1,14 @@
-basic.forever(function () {
-	
-})
+basic.showString("GO!")
+TinkerBott.moveTime(TinkerBott.Direction.forward, 100)
+basic.pause(18000)
+basic.showString("U-Turn!")
+basic.showString("LEFT!")
+TinkerBott.moveTime(TinkerBott.Direction.left, 50)
+basic.pause(1000)
+basic.showString("LEFT!")
+TinkerBott.moveTime(TinkerBott.Direction.left, 50)
+basic.pause(1000)
+basic.showString("HOME!")
+TinkerBott.moveTime(TinkerBott.Direction.forward, 100)
+basic.pause(18000)
+TinkerBott.stopcar()
